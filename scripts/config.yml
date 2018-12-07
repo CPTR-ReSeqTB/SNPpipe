@@ -25,13 +25,13 @@ scripts:
     parser: /uvp/bin/parse_annotation.py
     lineage_parser: /uvp/bin/lineage_parser.py
     vcf_parser: /uvp/bin/raw_vcf_parse.py
-    lineages: /uvp/bin/lineage_markers.txt
-    excluded: /uvp/bin/excluded_loci.txt
+    lineages: /uvp/conf/lineage_markers.txt
+    excluded: /uvp/conf/excluded_loci.txt
     coverage_estimator: /uvp/bin/coverage_estimator.py
-    bedlist: /uvp/bin/bed_list.txt     
+    bedlist: /uvp/conf/bed_list.txt
     resis_parser: /uvp/bin/resis_parser.py
     del_parser: /uvp/bin/del_parse.py
-    mutationloci: /uvp/bin/mutation_loci.txt
+    mutationloci: /uvp/conf/mutation_loci.txt
     snplist: /uvp/bin/snps.vcf
 other:
     threads: '1'
